@@ -1,1 +1,2 @@
-# AtCoder_DP_Edu
+# AtCoder Dynamic Programming Educational Contest
+## Link: https://atcoder.jp/contests/dp
