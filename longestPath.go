@@ -15,8 +15,6 @@ func main() {
 
 	var adj = make([][]int, n+1)
 
-	var lastIndex = make([]int, n+1)
-
 	for i := 0; i < m; i++ {
 		var from int
 		var to int
@@ -25,7 +23,6 @@ func main() {
 		fmt.Scanf("%d", &to)
 
 		adj[from] = append(adj[from], to)
-		lastIndex[from]++
 	}
 
 	for i := 1; i < n+1; i++ {
