@@ -83,10 +83,10 @@ func dijkstra(n int, adj [][]node) {
 	}
 	distance[1] = 0
 
+	// This is a min queue
 	queue := heap{{value: 1, weight: 0}}
 
 	for len(queue) > 0 {
-		// Need to optimize the next 2 lines
 		curr_node := Pop(&queue).(node)
 		curr_node_value := curr_node.value
 
